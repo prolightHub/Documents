@@ -1,0 +1,38 @@
+3 http://ppa.launchpad.net/ubuntu-desktop/ubuntu-make/ubuntu artful main OR Release
+==================================================
+
+Ign:1 http://dl.google.com/linux/chrome/deb stable InRelease                                      
+Hit:2 http://packages.microsoft.com/repos/vscode stable InRelease                                 
+Hit:3 http://dl.google.com/linux/chrome/deb stable Release                                        
+Hit:4 https://download.sublimetext.com apt/stable/ InRelease                                      
+Ign:5 http://ppa.launchpad.net/ubuntu-desktop/ubuntu-make/ubuntu artful InRelease                 
+Ign:6 http://us.archive.ubuntu.com/ubuntu artful InRelease                                   
+Ign:7 http://security.ubuntu.com/ubuntu artful-security InRelease                                 
+Ign:8 http://us.archive.ubuntu.com/ubuntu artful-updates InRelease                                
+Err:10 http://security.ubuntu.com/ubuntu artful-security Release                                  
+  404  Not Found [IP: 91.189.91.26 80]
+Ign:11 http://us.archive.ubuntu.com/ubuntu artful-backports InRelease                             
+Err:12 http://us.archive.ubuntu.com/ubuntu artful Release                                         
+  404  Not Found [IP: 91.189.91.23 80]
+Err:13 http://ppa.launchpad.net/ubuntu-desktop/ubuntu-make/ubuntu artful Release
+  404  Not Found
+Err:14 http://us.archive.ubuntu.com/ubuntu artful-updates Release
+  404  Not Found [IP: 91.189.91.23 80]
+Err:15 http://us.archive.ubuntu.com/ubuntu artful-backports Release
+  404  Not Found [IP: 91.189.91.23 80]
+Reading package lists... Done
+E: The repository 'http://security.ubuntu.com/ubuntu artful-security Release' no longer has a Release file.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+E: The repository 'http://us.archive.ubuntu.com/ubuntu artful Release' no longer has a Release file.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+E: The repository 'http://ppa.launchpad.net/ubuntu-desktop/ubuntu-make/ubuntu artful Release' does not have a Release file.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+E: The repository 'http://us.archive.ubuntu.com/ubuntu artful-updates Release' no longer has a Release file.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+E: The repository 'http://us.archive.ubuntu.com/ubuntu artful-backports Release' no longer has a Release file.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
